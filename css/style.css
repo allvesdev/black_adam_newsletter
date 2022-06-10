@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,15 +9,20 @@
 html,
 body {
   height: 100vh;
-  font-family: "Source Sans Pro", "Times New Roman", sans-serif;
+  font-family: "Orbitron", "Times New Roman", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-fonts-smoothing: antialiased;
+  background-image: url(/img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 /* header */
 
 header {
-  background-color: #0080ed;
+  background-image: linear-gradient(to right, #cc9933, black);
 }
 
 header .container {
@@ -51,13 +56,14 @@ header nav ul li a:hover {
 }
 
 header .container img {
-  height: 30px;
+  height: 50px;
 }
 
 /* main */
 
 main {
-  margin-bottom: 100px;
+  margin-top: 130px;
+  margin-bottom: 150px;
 }
 
 main .container-main {
@@ -69,16 +75,17 @@ main .container-main {
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: #cc9933;
   font-size: 45px;
   line-height: 50px;
   font-weight: bold;
 }
 
 h3 {
-  color: rgb(131, 131, 131);
+  color: white;
   font-size: 20px;
   line-height: 28px;
+  font-weight: 100;
   margin: 10px;
 }
 
@@ -93,16 +100,20 @@ form input {
   height: 45px;
   margin-bottom: 13px;
   border-radius: 20px;
-  border: 2px solid #0080ed;
+  border: 2px solid #cc9933;
+  font-family: "Orbitron", "Times New Roman", sans-serif;
 }
 
 form [type="submit"] {
-  background-color: #0080ed;
+  background-color: #cc9933;
   color: white;
+  transition: all 250ms linear 0s;
 }
 
 form [type="submit"]:hover {
   cursor: pointer;
+  background-color: #946f26;
+  border: 2px solid #946f26;
 }
 
 main .container-main img {
@@ -124,14 +135,19 @@ main .container-main img {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  color: rgb(187, 185, 185);
+  color: #cc9933;
+}
+
+.info .text--medium {
+  font-size: 12px;
+  color: white;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  box-shadow: 5px 5px 15px -4px #000000;
+
   transition: all 0.3s ease 0s;
 }
 
