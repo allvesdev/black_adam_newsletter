@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="./img/blackadamlogo.png" alt="Logo da StartSe" />
+        <img src="./img/blackadamlogo.png" alt="Logo do filme Black Adam" />
         <div class="menu-section">
           <div class="container-menu">
             <input type="checkbox" name="checkbox-menu" id="checkbox-menu" />
@@ -28,10 +32,13 @@
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">Artigos</a>
+                <a href="#trailer">Trailer</a>
               </li>
               <li>
-                <a href="#">Contato</a>
+                <a href="#posts">Posts</a>
+              </li>
+              <li>
+                <a href="#contato">Contato</a>
               </li>
             </ul>
           </nav>
@@ -55,11 +62,22 @@
         </div>
         <img
           src="./img/blackadammain.png"
-          alt="Ilustração de pessoas interagindo com gráficos"
+          alt="Imagem do Black Adam com o logo"
         />
       </div>
     </main>
-    <section class="cards">
+    <div class="videoWrapper">
+      <iframe
+        id="trailer"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/X0tOpBuYasI"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <section class="cards" id="posts">
       <div class="card">
         <div class="image">
           <img src="./img/post1.jpg" alt="" />
@@ -150,8 +168,40 @@
         </div>
       </div>
     </section>
-    <section id="form">
-      <div class="desafio">Desafio</div>
+    <section class="formulario" id="posts">
+      <div class="container-contact">
+        <div class="contact-box">
+          <div class="right">
+            <h2>Entre em contato</h2>
+            <input type="text" class="field" placeholder="Seu nome" />
+            <input type="text" class="field" placeholder="Seu e-mail" />
+            <input type="text" class="field" placeholder="Telefone" />
+            <textarea placeholder="Mensagem" class="field"></textarea>
+            <button class="btn">Enviar</button>
+          </div>
+        </div>
+      </div>
     </section>
+    <footer>
+      <div class="footer-content">
+        <img src="./img/blackadamlogo.png" alt="Logo do filme Black Adam" />
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          copyright &copy;2022 Warner Bros. designed by <span>allvesdev</span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
