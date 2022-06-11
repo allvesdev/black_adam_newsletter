@@ -27,10 +27,6 @@
   }
 }
 
-.videoWrapper {
-  padding-top: 0;
-}
-
 @media (min-height: 631px) {
   .container-menu {
     display: none;

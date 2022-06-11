@@ -92,19 +92,6 @@ main .container-main {
   margin: 100px auto 0 auto;
 }
 
-.container-main img {
-  animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 h2 {
   color: #cc9933;
   font-size: 45px;
