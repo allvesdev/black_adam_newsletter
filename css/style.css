@@ -58,6 +58,10 @@ header .container img {
   height: 50px;
 }
 
+#checkbox-menu {
+  display: none;
+}
+
 /* video */
 
 .videoWrapper {
