@@ -1,5 +1,5 @@
 # Black Adam Newsletter
-👉<a href="https://allvesdev.github.io/black_adam_newsletter/">*Live preview*</a>
+👉 <a href="https://allvesdev.github.io/black_adam_newsletter/">*Live preview*</a>
 
 ## Description
 
