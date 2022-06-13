@@ -14,4 +14,4 @@ This newsletter study page was created based on the live coding from StartSe's T
 
 ## Screenshot
 
-![Full page screenshot](../img/full_page.png)
+![Full page screenshot](/img/full_page.png)
