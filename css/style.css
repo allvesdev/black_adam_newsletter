@@ -201,7 +201,7 @@ main .container-main img {
   margin-bottom: 0px;
 }
 
-a {
+.cards > a {
   text-decoration: none;
 }
 
@@ -321,7 +321,7 @@ footer {
   text-align: center;
 }
 
-.footer-content img {
+.footer-content .footer-logo {
   width: 20%;
 }
 
@@ -349,15 +349,6 @@ footer {
   color: #121212;
 }
 
-.socials a i {
-  font-size: 1.1rem;
-  transition: color 0.4s ease;
-}
-
-.socials a:hover i {
-  color: white;
-}
-
 .footer-bottom {
   background-color: #1a1a1a;
   opacity: 1;
@@ -377,4 +368,18 @@ footer {
   text-transform: uppercase;
   opacity: 0.4;
   font-weight: 200;
+}
+
+.socials a img {
+  width: 110%;
+  height: auto;
+  padding: 5px 15px;
+  filter: invert(6%) sepia(1%) saturate(801%) hue-rotate(314deg)
+    brightness(103%) contrast(91%);
+  transition: ease-in 0.2s all;
+}
+
+.socials a img:hover {
+  filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(304deg)
+    brightness(104%) contrast(102%);
 }

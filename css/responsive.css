@@ -35,6 +35,10 @@
   .container {
     padding: 0px 20px;
   }
+
+  .socials a img {
+    padding: 0;
+  }
 }
 
 @media (max-width: 630px) {
@@ -136,5 +140,14 @@
   .image > img {
     width: 100%;
     height: auto;
+  }
+
+  .footer-content .footer-logo {
+    width: 40%;
+    height: auto;
+  }
+
+  .socials a img {
+    padding: 0;
   }
 }
