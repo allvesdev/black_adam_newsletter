@@ -216,7 +216,7 @@ main .container-main img {
   align-items: center;
   padding: 20px 100px;
   margin-top: 5%;
-  background-image: url("/img/form-bg.png");
+  background-image: url('../img/form-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,7 +230,7 @@ main .container-main img {
   height: 100%;
   left: 0;
   top: 0;
-  background: url("img/bg.jpg") no-repeat center;
+  background: url('../img/bg.jpg) no-repeat center;
   background-size: cover;
   filter: blur(50px);
   z-index: -1;
