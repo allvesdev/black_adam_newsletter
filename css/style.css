@@ -12,7 +12,7 @@ body {
   font-family: "Orbitron", "Times New Roman", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-fonts-smoothing: antialiased;
-  background-image: url("https://i.ibb.co/6YNZjqF/bg.png");
+  background-image: url('https://i.ibb.co/6YNZjqF/bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
