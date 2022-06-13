@@ -201,15 +201,8 @@ main .container-main img {
   margin-bottom: 0px;
 }
 
-.desafio {
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  height: 400px;
-  align-items: center;
-  border: 1px solid black;
-  margin: 100px auto;
-  max-width: 980px;
+a {
+  text-decoration: none;
 }
 
 /* contact */
