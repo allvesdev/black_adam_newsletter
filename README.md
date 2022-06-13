@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple newsletter page with Black Adam movie theme
+Simple newsletter page with "Black Adam" movie theme
 
 ## Languages
 
