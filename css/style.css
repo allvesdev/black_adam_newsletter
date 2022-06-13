@@ -272,6 +272,7 @@ main .container-main img {
 
 textarea {
   min-height: 150px;
+  width: 100%;
 }
 
 .btn {
